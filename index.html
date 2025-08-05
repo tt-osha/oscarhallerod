@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Oscar Halleröd – Factory Builder</title>
+  <style>
+    /* Reset */
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: Arial, sans-serif;
+      background: #f9f9f9;
+      color: #222;
+      line-height: 1.6;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 40px 16px;
+    }
+
+    h1 {
+      font-size: 1.6rem;
+      text-align: center;
+      margin: 24px 0;
+    }
+
+    .counters {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 16px;
+      width: 100%;
+      max-width: 400px;
+      margin: 24px 0;
+    }
+
+    .counter {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      background: #ffffff;
+      border-radius: 10px;
+      padding: 12px 16px;
+      box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+      width: 100%;
+      text-decoration: none;
+      color: inherit;
+      transition: transform 0.2s ease, box-shadow 0.2s ease;
+    }
+
+    .counter:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 6px 16px rgba(0, 0, 0, 0.1);
+    }
+
+    .counter img {
+      width: 28px;
+      height: 28px;
+    }
+
+    .counter-number {
+      font-size: 1.1rem;
+      font-weight: bold;
+    }
+
+    .counter-label {
+      font-size: 0.85rem;
+      color: #555;
+    }
+
+    .text-content {
+      text-align: center;
+      max-width: 600px;
+    }
+
+    @media (min-width: 600px) {
+      .counters {
+        max-width: 500px;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <h1>Build a factory in Asia with me...</h1>
+
+  <div class="counters">
+    <a class="counter" href="https://instagram.com/oscarhallerod" target="_blank">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/a/a5/Instagram_icon.png" alt="Instagram">
+      <div>
+        <div class="counter-number">3,115</div>
+        <div class="counter-label">Followers</div>
+      </div>
+    </a>
+
+    <a class="counter" href="https://www.linkedin.com/@oscarhallerod" target="_blank">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/LinkedIn_logo_initials.png/960px-LinkedIn_logo_initials.png" alt="LinkedIn">
+      <div>
+        <div class="counter-number">1,749</div>
+        <div class="counter-label">Followers</div>
+      </div>
+    </a>
+
+    <a class="counter" href="https://facebook.com/oscarhallerod" target="_blank">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/5/51/Facebook_f_logo_%282019%29.svg" alt="Facebook">
+      <div>
+        <div class="counter-number">978</div>
+        <div class="counter-label">Followers</div>
+      </div>
+    </a>
+
+    <a class="counter" href="https://www.tiktok.com/@oscarhallerod" target="_blank">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/Tiktok_icon.svg/1200px-Tiktok_icon.svg.png" alt="TikTok">
+      <div>
+        <div class="counter-number">765</div>
+        <div class="counter-label">Followers</div>
+      </div>
+    </a>
+
+    <a class="counter" href="https://twitter.com/oscarhallerod" target="_blank">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/c/ce/X_logo_2023.svg" alt="X">
+      <div>
+        <div class="counter-number">701</div>
+        <div class="counter-label">Followers</div>
+      </div>
+    </a>
+
+    <a class="counter" href="https://www.youtube.com/@oscarhallerod" target="_blank">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/4/42/YouTube_icon_%282013-2017%29.png" alt="YouTube">
+      <div>
+        <div class="counter-number">348</div>
+        <div class="counter-label">Subscribers</div>
+      </div>
+    </a>
+  </div>
+
+  <h1>... Or watch me die trying</h1>
+
+</body>
+</html>
